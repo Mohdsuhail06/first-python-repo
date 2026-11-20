@@ -20,3 +20,5 @@ for category, value in totals_by_category.items():
     print(f"{category}: {value:.2f} JOD")
 print(f"Most expensive: {most_expensive['item']} ({most_expensive['amount_jod']} JOD)")
 print(f"Number of expenses: {count}")
+average = total / count
+print(f"Average expense: {average:.2f} JOD")
